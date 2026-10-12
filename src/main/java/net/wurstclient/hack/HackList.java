@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Wurst-Imperium and contributors.
+ * Copyright (c) 2014-2026 Wurst-Imperium and contributors.
  *
  * This source code is subject to the terms of the GNU General Public
  * License, version 3. If a copy of the GPL was not distributed with this
@@ -30,7 +30,6 @@ public final class HackList implements UpdateListener
 {
 	public final AimAssistHack aimAssistHack = new AimAssistHack();
 	public final AirPlaceHack airPlaceHack = new AirPlaceHack();
-	public final AnchorAuraHack anchorAuraHack = new AnchorAuraHack();
 	public final AntiAfkHack antiAfkHack = new AntiAfkHack();
 	public final AntiBlindHack antiBlindHack = new AntiBlindHack();
 	public final AntiCactusHack antiCactusHack = new AntiCactusHack();
@@ -70,7 +69,6 @@ public final class HackList implements UpdateListener
 	public final BlinkHack blinkHack = new BlinkHack();
 	public final BoatFlyHack boatFlyHack = new BoatFlyHack();
 	public final BonemealAuraHack bonemealAuraHack = new BonemealAuraHack();
-	public final BowAimbotHack bowAimbotHack = new BowAimbotHack();
 	public final BuildRandomHack buildRandomHack = new BuildRandomHack();
 	public final BunnyHopHack bunnyHopHack = new BunnyHopHack();
 	public final CameraDistanceHack cameraDistanceHack =
@@ -80,22 +78,15 @@ public final class HackList implements UpdateListener
 	public final ChatTranslatorHack chatTranslatorHack =
 		new ChatTranslatorHack();
 	public final ChestEspHack chestEspHack = new ChestEspHack();
-	public final ClickAuraHack clickAuraHack = new ClickAuraHack();
 	public final ClickGuiHack clickGuiHack = new ClickGuiHack();
 	public final CrashChestHack crashChestHack = new CrashChestHack();
-	public final CreativeFlightHack creativeFlightHack =
-		new CreativeFlightHack();
-	public final CriticalsHack criticalsHack = new CriticalsHack();
-	public final CrystalAuraHack crystalAuraHack = new CrystalAuraHack();
 	public final DerpHack derpHack = new DerpHack();
 	public final DolphinHack dolphinHack = new DolphinHack();
 	public final ExcavatorHack excavatorHack = new ExcavatorHack();
-	public final ExtraElytraHack extraElytraHack = new ExtraElytraHack();
 	public final FancyChatHack fancyChatHack = new FancyChatHack();
 	public final FastBreakHack fastBreakHack = new FastBreakHack();
 	public final FastLadderHack fastLadderHack = new FastLadderHack();
 	public final FastPlaceHack fastPlaceHack = new FastPlaceHack();
-	public final FeedAuraHack feedAuraHack = new FeedAuraHack();
 	public final FightBotHack fightBotHack = new FightBotHack();
 	public final FishHack fishHack = new FishHack();
 	public final FlightHack flightHack = new FlightHack();
@@ -114,20 +105,13 @@ public final class HackList implements UpdateListener
 	public final InvWalkHack invWalkHack = new InvWalkHack();
 	public final ItemEspHack itemEspHack = new ItemEspHack();
 	public final ItemGeneratorHack itemGeneratorHack = new ItemGeneratorHack();
-	public final JesusHack jesusHack = new JesusHack();
-	public final JetpackHack jetpackHack = new JetpackHack();
-	public final KaboomHack kaboomHack = new KaboomHack();
-	public final KillauraLegitHack killauraLegitHack = new KillauraLegitHack();
-	public final KillauraHack killauraHack = new KillauraHack();
 	public final KillPotionHack killPotionHack = new KillPotionHack();
 	public final LiquidsHack liquidsHack = new LiquidsHack();
 	public final LsdHack lsdHack = new LsdHack();
-	public final MaceDmgHack maceDmgHack = new MaceDmgHack();
 	public final MassTpaHack massTpaHack = new MassTpaHack();
 	public final MileyCyrusHack mileyCyrusHack = new MileyCyrusHack();
 	public final MobEspHack mobEspHack = new MobEspHack();
 	public final MobSpawnEspHack mobSpawnEspHack = new MobSpawnEspHack();
-	public final MultiAuraHack multiAuraHack = new MultiAuraHack();
 	public final NameProtectHack nameProtectHack = new NameProtectHack();
 	public final NameTagsHack nameTagsHack = new NameTagsHack();
 	public final NavigatorHack navigatorHack = new NavigatorHack();
@@ -180,11 +164,9 @@ public final class HackList implements UpdateListener
 	public final TimerHack timerHack = new TimerHack();
 	public final TiredHack tiredHack = new TiredHack();
 	public final TooManyHaxHack tooManyHaxHack = new TooManyHaxHack();
-	public final TpAuraHack tpAuraHack = new TpAuraHack();
 	public final TrajectoriesHack trajectoriesHack = new TrajectoriesHack();
 	public final TreeBotHack treeBotHack = new TreeBotHack();
 	public final TriggerBotHack triggerBotHack = new TriggerBotHack();
-	public final TrollPotionHack trollPotionHack = new TrollPotionHack();
 	public final TrueSightHack trueSightHack = new TrueSightHack();
 	public final TunnellerHack tunnellerHack = new TunnellerHack();
 	public final VeinMinerHack veinMinerHack = new VeinMinerHack();

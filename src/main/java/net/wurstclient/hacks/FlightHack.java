@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Wurst-Imperium and contributors.
+ * Copyright (c) 2014-2026 Wurst-Imperium and contributors.
  *
  * This source code is subject to the terms of the GNU General Public
  * License, version 3. If a copy of the GPL was not distributed with this
@@ -71,9 +71,6 @@ public final class FlightHack extends Hack
 	protected void onEnable()
 	{
 		tickCounter = 0;
-		
-		WURST.getHax().creativeFlightHack.setEnabled(false);
-		WURST.getHax().jetpackHack.setEnabled(false);
 		
 		EVENTS.add(UpdateListener.class, this);
 		EVENTS.add(IsPlayerInWaterListener.class, this);

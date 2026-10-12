@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Wurst-Imperium and contributors.
+ * Copyright (c) 2014-2026 Wurst-Imperium and contributors.
  *
  * This source code is subject to the terms of the GNU General Public
  * License, version 3. If a copy of the GPL was not distributed with this
@@ -112,14 +112,8 @@ public final class AimAssistHack extends Hack
 	{
 		// disable incompatible hacks
 		WURST.getHax().autoFishHack.setEnabled(false);
-		WURST.getHax().clickAuraHack.setEnabled(false);
-		WURST.getHax().crystalAuraHack.setEnabled(false);
 		WURST.getHax().fightBotHack.setEnabled(false);
-		WURST.getHax().killauraHack.setEnabled(false);
-		WURST.getHax().killauraLegitHack.setEnabled(false);
-		WURST.getHax().multiAuraHack.setEnabled(false);
 		WURST.getHax().protectHack.setEnabled(false);
-		WURST.getHax().tpAuraHack.setEnabled(false);
 		
 		EVENTS.add(UpdateListener.class, this);
 		EVENTS.add(MouseUpdateListener.class, this);

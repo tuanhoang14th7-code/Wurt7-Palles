@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Wurst-Imperium and contributors.
+ * Copyright (c) 2014-2026 Wurst-Imperium and contributors.
  *
  * This source code is subject to the terms of the GNU General Public
  * License, version 3. If a copy of the GPL was not distributed with this
@@ -13,7 +13,7 @@ import net.wurstclient.hack.HackList;
 
 public record PlayerAbilities(boolean invulnerable, boolean creativeFlying,
 	boolean flying, boolean immuneToFallDamage, boolean noWaterSlowdown,
-	boolean jesus, boolean spider)
+	boolean spider)
 {
 	
 	private static final WurstClient WURST = WurstClient.INSTANCE;
@@ -31,10 +31,9 @@ public record PlayerAbilities(boolean invulnerable, boolean creativeFlying,
 		boolean flying = creativeFlying || hax.flightHack.isEnabled();
 		boolean immuneToFallDamage = invulnerable || hax.noFallHack.isEnabled();
 		boolean noWaterSlowdown = hax.antiWaterPushHack.isPreventingSlowdown();
-		boolean jesus = hax.jesusHack.isEnabled();
 		boolean spider = hax.spiderHack.isEnabled();
 		
 		return new PlayerAbilities(invulnerable, creativeFlying, flying,
-			immuneToFallDamage, noWaterSlowdown, jesus, spider);
+			immuneToFallDamage, noWaterSlowdown, spider);
 	}
 }
